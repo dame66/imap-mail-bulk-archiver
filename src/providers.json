@@ -1,0 +1,103 @@
+{
+    "_comment": "常见邮箱 IMAP 预设 · 客户可增删改",
+    "_ssl_note": "端口 993 = SSL(推荐) · 143 = STARTTLS",
+
+    "providers": {
+        "gmail": {
+            "host": "imap.gmail.com",
+            "port": 993,
+            "ssl": true,
+            "note": "需在 Google 账户开启'应用专用密码'· 不能用普通登录密码"
+        },
+        "outlook": {
+            "host": "outlook.office365.com",
+            "port": 993,
+            "ssl": true,
+            "note": "微软 · 含 Hotmail · Live · Outlook · Office 365 邮箱"
+        },
+        "yahoo": {
+            "host": "imap.mail.yahoo.com",
+            "port": 993,
+            "ssl": true,
+            "note": "雅虎邮箱"
+        },
+        "qq": {
+            "host": "imap.qq.com",
+            "port": 993,
+            "ssl": true,
+            "note": "QQ 邮箱 · 密码是授权码(不是 QQ 密码)· QQ 邮箱设置里申请"
+        },
+        "163": {
+            "host": "imap.163.com",
+            "port": 993,
+            "ssl": true,
+            "note": "网易 163 · 密码是授权码 · 邮箱设置里申请"
+        },
+        "126": {
+            "host": "imap.126.com",
+            "port": 993,
+            "ssl": true,
+            "note": "网易 126 · 授权码同 163"
+        },
+        "yeah": {
+            "host": "imap.yeah.net",
+            "port": 993,
+            "ssl": true,
+            "note": "网易 yeah.net · 授权码"
+        },
+        "sina": {
+            "host": "imap.sina.com",
+            "port": 993,
+            "ssl": true,
+            "note": "新浪邮箱"
+        },
+        "sohu": {
+            "host": "imap.sohu.com",
+            "port": 993,
+            "ssl": true,
+            "note": "搜狐邮箱"
+        },
+        "aliyun": {
+            "host": "imap.aliyun.com",
+            "port": 993,
+            "ssl": true,
+            "note": "阿里云邮箱 · 企业邮箱"
+        },
+        "foxmail": {
+            "host": "imap.qq.com",
+            "port": 993,
+            "ssl": true,
+            "note": "Foxmail 走 QQ 邮箱通道 · 授权码"
+        },
+        "hostinger": {
+            "host": "imap.hostinger.com",
+            "port": 993,
+            "ssl": true,
+            "note": "Hostinger 主机商邮箱"
+        },
+        "icloud": {
+            "host": "imap.mail.me.com",
+            "port": 993,
+            "ssl": true,
+            "note": "iCloud 邮箱 · 需 App 专用密码"
+        },
+        "yandex": {
+            "host": "imap.yandex.com",
+            "port": 993,
+            "ssl": true,
+            "note": "Yandex 邮箱"
+        },
+        "zoho": {
+            "host": "imap.zoho.com",
+            "port": 993,
+            "ssl": true,
+            "note": "Zoho 商务邮箱"
+        },
+        "tencent_biz": {
+            "host": "imap.exmail.qq.com",
+            "port": 993,
+            "ssl": true,
+            "note": "腾讯企业邮箱(exmail)"
+        }
+    }
+}

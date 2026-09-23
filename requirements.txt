@@ -1,0 +1,2 @@
+# 无外部依赖 · 全 Python 标准库(imaplib · email · csv)
+# 直接跑 · 不用 pip install
